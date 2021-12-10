@@ -43,8 +43,7 @@ async def genStr(_, msg: Message):
         return
     ## Doing Force Sub 🤣
     update_channel = UPDATES_CHANNEL
-    i
-f update_channel:
+    if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, msg.chat.id)
             if user.status == "kicked":
