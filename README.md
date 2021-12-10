@@ -16,13 +16,13 @@
   - Telegram Bot Token from [here](https://t.me/BotFather).
 
 ## Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AsmSafone/StringSessionGenerator)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sinan-m-coder/SessionGenerator)
 
 ## Support Group:
-<a href="https://t.me/safothebot"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Sinzz_botz"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 #### Coded By
--  sinan m 116](https://github.com/sinan-m-116)
-- [sinan coder](https://github.com/sinan-m-coder0)
+- [sinan m 116](https://github.com/sinan-m-116)
+- [sinan coder](https://github.com/sinan-m-coder0)-
 
 
