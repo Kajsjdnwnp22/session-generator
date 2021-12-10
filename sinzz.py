@@ -52,7 +52,7 @@ async def genStr(_, msg: Message):
                    text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/sinzz_botz).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
-               )_
+               )
                return
         except UserNotParticipant:
             await bot.send_message(
