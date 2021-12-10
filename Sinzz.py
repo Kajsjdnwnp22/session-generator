@@ -25,34 +25,35 @@ Get API_ID from https://my.telegram.org"""
 HASH_TEXT = "Now Send Your `API_HASH`.\n\nGet API_HASH From https://my.telegram.org\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now Send Your Telegram Account's Phone Number in International Format. \n"
-    "Including Country Code. Example: **+14154566376**\n\n"
+    "Including Country Code. Example: **+917034058388**\n\n"
     "Press /cancel to Cancel Task."
 )
 
 
-UPDATES_CHANNEL = os.environ.get('UPDATES_CHANNEL', 'AsmSafone')
+UPDATES_CHANNEL = os.environ.get('UPDATES_CHANNEL', 'sinzzbotz')
 
 @bot.on_message(filters.private & filters.command("start"))
 async def genStr(_, msg: Message):
     if msg.chat.id in Credentials.BANNED_USERS:
         await bot.send_message(
             chat_id=msg.chat.id,
-            text="You are Banned. Contact My [Support Group](https://t.me/safothebot)",
+            text="You are Banned. Contact My [Support Group](https://t.me/sinzz_botz)",
             reply_to_message_id=msg.message_id
         )
         return
     ## Doing Force Sub 🤣
     update_channel = UPDATES_CHANNEL
-    if update_channel:
+    i
+f update_channel:
         try:
             user = await bot.get_chat_member(update_channel, msg.chat.id)
             if user.status == "kicked":
                await bot.send_message(
                    chat_id=msg.chat.id,
-                   text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/safothebot).",
+                   text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/sinzz_botz).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
-               )
+               )_
                return
         except UserNotParticipant:
             await bot.send_message(
@@ -174,7 +175,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION \n\n```{session_string}``` \n\nBy [String Session Generator](http://t.me/genStr_robot) 🤖\nMade with ❤️ By @AsmSafone! 👑")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION #sucsess #sinzzbotz \n\n```{session_string}``` \n\nBy [ Session Generator](http://t.me/sessiongenerator_sinzzbot) 🤖\nMade with ❤️ By @SinzzBotz! 👑")
         await client.disconnect()
         text = "String Session is Successfully ✅ Generated.\nClick On Below Button To Get."
         reply_markup = InlineKeyboardMarkup(
@@ -209,8 +210,8 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-                InlineKeyboardButton('SUPPORT', url='https://t.me/Safothebot')
+                InlineKeyboardButton('CHANNEL', url='https://t.me/Sinzzbotz'),
+                InlineKeyboardButton('SUPPORT', url='https://t.me/Sinzz_botz')
             ],
             [
                 InlineKeyboardButton('DEVELOPER', url='https://t.me/I_Am_Only_One_1'),
