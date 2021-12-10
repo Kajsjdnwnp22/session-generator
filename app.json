@@ -15,7 +15,7 @@
             "size": "free"
         }
     },
-    "env": {
+    "en": {
         "APP_NAME": {
             "description": "Heroku App Name",
             "value": "",
